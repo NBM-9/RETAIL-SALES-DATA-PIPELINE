@@ -32,3 +32,12 @@ The dataset contains retail sales transactions including:
 
 ## Outcome
 A clean, structured dataset ready for SQL analysis or data warehousing.
+
+##why i create this project?
+I built a small data pipeline where I took raw retail sales data, cleaned duplicates and missing values using Python and Pandas, standardized the schema, and produced analytics-ready data. This helped me understand data quality and end-to-end data preparation
+
+**Note**: This project was developed as part of my learning and understanding concepts.
+
+
+Author:Namo bhavani Maganti 
+linkedin:https://www.linkedin.com/in/namomaganti/ 
