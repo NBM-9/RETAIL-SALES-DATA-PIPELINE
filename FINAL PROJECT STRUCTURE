@@ -1,0 +1,13 @@
+retail-sales-data-pipeline/
+│
+├── data/
+│   ├── raw/
+│   │   └── retail_sales.csv
+│   └── processed/
+│       └── clean_retail_sales.csv
+│
+├── scripts/
+│   └── clean_data.py
+│
+├── README.md
+└── requirements.txt
