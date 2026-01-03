@@ -1,0 +1,20 @@
+-- 1. Total revenue generated
+SELECT 
+    SUM(sales) AS total_revenue
+FROM clean_retail_sales;
+
+-- 2. Revenue by product category
+SELECT 
+    category,
+    SUM(sales) AS category_revenue
+FROM clean_retail_sales
+GROUP BY category
+ORDER BY category_revenue DESC;
+
+-- 3. Daily sales trend
+SELECT 
+    order_date,
+    SUM(sales) AS daily_sales
+FROM clean_retail_sales
+GROUP BY order_date
+ORDER BY order_date;
