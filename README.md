@@ -42,6 +42,12 @@ Performed SQL queries to analyze:
 - Revenue by product category
 - Daily sales trends
 
+## SQL Analysis
+Performed SQL analysis on cleaned sales data to:
+- Calculate total revenue
+- Identify top-performing product categories
+- Analyze daily sales trends
+
 
 **Note**: This project was developed as part of my learning and understanding concepts.
 
